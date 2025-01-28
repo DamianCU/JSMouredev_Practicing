@@ -62,5 +62,9 @@
     console.log(myArray.length);
 
     // CLEAR
+
+    myArray = []
+    console.log(myArray);
+    
     
     
