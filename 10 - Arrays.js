@@ -69,10 +69,13 @@
     
     
     // SLICE
-
     myArray.push("Brais", "Moure", "mouredev")
     let myNewArray = myArray.slice(1, 2)
 
     console.log(myNewArray);
-    
+
+
+    // SPLICE
+    myArray.splice(1, 3)
+    console.log(myArray);
     
