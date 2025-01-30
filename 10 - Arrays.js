@@ -21,7 +21,7 @@
 
 // Métodos comunes
 
-    // PUSH y POP
+    // PUSH y POP____________________________
     myArray.push("Gato")
     myArray.push("Lagarto")
     myArray.push("Pato")
@@ -40,7 +40,7 @@
     // Push añade al final del array y pop elimina el último y lo devuelve por consola
 
 
-// SHIFT y UNSHIFT
+// SHIFT y UNSHIFT___________________________________________
    //Shift hace como pop pero eliminando el primer elemento del array
     myArray.shift()
     console.log(myArray);
@@ -55,16 +55,24 @@
     myArray.push("Chimichanga")
     
     console.log(myArray);
-
     console.log();
 
-    // LENGTH
+
+    // LENGTH__________________________________
     console.log(myArray.length);
 
-    // CLEAR
-
-    myArray = []
+    // CLEAR___________________________________
+    myArray = []        //el más adecuado
     console.log(myArray);
+
+    myArray.length = 0   // método alternativo
     
+    
+    // SLICE
+
+    myArray.push("Brais", "Moure", "mouredev")
+    let myNewArray = myArray.slice(1, 2)
+
+    console.log(myNewArray);
     
     
