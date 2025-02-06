@@ -31,28 +31,27 @@ console.log(arrayAnimales);
 
     let myMap = new Map();
     
-    myMap.set([
-        ["1", "Enero"],
-        ["2", "Febrero"],
-        ["3", "Marzo"],
-        ["4", "Abril"],
-        ["5", "Mayo"],
-        ["6", "Junio"],
-        ["7", "Julio"],
-        ["8", "Agosto"],
-        ["9", "Septiembre"],
-        ["10", "Octubre"],
-        ["11", "Noviembre"],
-        ["12", "Diciembre"]        
-    ]);
-    console.log(myMap);
+    myMap.set("1", "enero");
+    myMap.set("2", "febrero");
+    myMap.set("3", "marzo");
+    myMap.set("4", "abril");
+    myMap.set("5", "mayo");
+    myMap.set("6", "junio");
+    myMap.set("7", "julio");
+    myMap.set("8", "agosto");
+    myMap.set("9", "septiembre");
+    myMap.set("10", "octubre");
+    myMap.set("11", "noviembre");
+    myMap.set("12", "diciembre");   
     
 
 // 8. Comprueba si el mes número 5 existe en el map e imprime su valor
-
     console.log(myMap.has("5"));
-    
+    console.log(myMap.get("5"));        
 
 // 9. Añade al mapa una clave con un array como que almacene los meses de verano
+    myMap.set("5",["Junio", "Julio", "Agosto"])
+    console.log("Mira aquí chulo");    
+    console.log(myMap);    
 
 // 10. Crea un array, tranfórmala a un Set y almacénalo en un Map
