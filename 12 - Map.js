@@ -25,16 +25,38 @@
 
         myMap.set("alias", "DamFOX")
         myMap.set("city", "Alcalá la real")
-        console.log(myMap);
-        
+        console.log(myMap);        
         
         //  GET -> Para obtener un elemento
         console.log(myMap.get("name"))
-
 
         // HAS 
         console.log(myMap.has("surname"));
 
         // DELETE 
+        myMap.delete("city");
+        console.log(myMap);
+
+        // KEYS  -> Para obtener todas las claves
+        console.log(myMap.keys());
+
+        // VALUES  -> Para obtener todos los valores
+        console.log(myMap.values());
+        
+        console.log("Esta es la que buscamos");
+        
+        // SIZE 
+        console.log(myMap.size);
+
+        // ENTRIES 
+        console.log(myMap.entries());
+        
+        // CLEAR
+        myMap.clear();
+        console.log(myMap);
+
+        
+
+        
         
         
