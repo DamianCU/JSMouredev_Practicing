@@ -97,4 +97,4 @@
     
     externaOK();
 
-    
+    //? REPASAR LAS FUNCIONES DE ORDEN MAYOR Y EL FOREACH 3H55MIN
