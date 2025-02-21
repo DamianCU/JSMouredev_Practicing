@@ -98,3 +98,45 @@
     externaOK();
 
     //? REPASAR LAS FUNCIONES DE ORDEN MAYOR Y EL FOREACH 3H55MIN
+
+
+
+
+    //* FUNCIONES DE ORDEN MAYOR
+        // funciones que reciben otras funciones como argumento.
+
+        function applyFunc(func, param) {
+            func(param);
+        }
+
+        applyFunc(arrowFunction, "Función de Orden Superior")
+
+    
+    
+
+
+    //* ForEACH
+        // en realidad es una función que nos sirve para ejecutar bucles asociados a elementos iterables.
+        let myArray = [1,2,3,4,5,6,7]
+        
+        mySet = new Set(["Damian", "Carrillo", "Ureña", "Granada", "35"]);
+
+        myMap = new Map([
+            ["Name","Damián"],
+            ["Surname","Carrillo"],
+            ["Age","35"],
+            ["Email","dcu191089@hotmail.es"]
+        ])
+
+
+        /* myArray.forEach(function(value) {
+             console.log(value)
+        }); */
+
+        //?Igual que la función anterior
+        //myArray.forEach((value) => console.log(value))
+
+        //mySet.forEach((value) => console.log(value))
+        myMap.forEach((value) => console.log(value));
+        
+
