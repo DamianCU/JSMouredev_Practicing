@@ -33,7 +33,7 @@
 
     let stringE3 = "Damián, lo vas a conseguir"
 
-    function countingVocals () {
+    function countingVocals () {}
 
 //? 4. Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas
 
